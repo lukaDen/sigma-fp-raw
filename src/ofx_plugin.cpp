@@ -70,7 +70,7 @@ const OfxMessageSuiteV1* gMsg1 = nullptr;
 // ---- parameter names ----
 const char* WB_OPTIONS[] = {"As Shot", "Daylight", "Cloudy", "Shade", "Tungsten", "Fluorescent", "Flash", "Custom"};
 const char* CS_OPTIONS[] = {"Rec.709", "P3 D65", "Rec.2020", "DaVinci Wide Gamut", "ACES AP0", "ACES AP1", "ARRI Wide Gamut 3"};
-const char* CAM_OPTIONS[] = {"As Recorded", "Chart-Fitted (daylight)"};
+const char* CAM_OPTIONS[] = {"As Recorded", "Chart-Fitted"};
 const char* SOURCE_GAMMAS[] = {"Linear", "Gamma 2.2", "Gamma 2.4", "Gamma 2.6", "Rec.709", "sRGB", "Blackmagic Design Film", "Blackmagic Design 4K Film",
                                "Blackmagic Design 4.6K Film", "DaVinci Intermediate", "ACEScct", "Off"};
 const char* GAMMA_OPTIONS[] = {"Linear", "Gamma 2.2", "Gamma 2.4", "Rec.709", "sRGB", "DaVinci Intermediate", "ACEScct"};

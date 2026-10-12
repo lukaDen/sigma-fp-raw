@@ -89,7 +89,7 @@ machines for every change, but they have not yet been tried inside DaVinci Resol
 | Resolve Input Scaling | Develop RAW off only: how Resolve places a clip of another shape than the timeline, *Scale to Fit* (its default) or *Fill*. Needed for the stabilisation and the lens corrections to line up. |
 | Decode Quality | *Full Res.* (RCD demosaic) or *Half Res.* (2×2 binned, fastest) |
 | White Balance | As Shot, Daylight, Cloudy, Shade, Tungsten, Fluorescent, Flash, Custom. Editing *Color Temp* or *Tint* switches to Custom. |
-| Camera Matrix | *As Recorded* (the file's ColorMatrix1/2) or *Chart-Fitted (daylight)*: see below |
+| Camera Matrix | *As Recorded* (the file's ColorMatrix1/2) or *Chart-Fitted*: see below |
 | Color Space | Rec.709, P3 D65, Rec.2020, DaVinci Wide Gamut, ACES AP0, ACES AP1, ARRI Wide Gamut 3. AWG3 with Linear gamma feeds a Color Space Transform to LogC3, for ARRI LUTs. |
 | Gamma | Linear, 2.2, 2.4, Rec.709, sRGB, DaVinci Intermediate, ACEScct |
 | Exposure, Sharpness, Highlights, Shadows, Color Boost, Saturation, Midtones, Lift, Gain, Contrast | As in Resolve's CinemaDNG panel: same names, layout and ranges. The response is this plug-in's own, not Blackmagic's. |
